@@ -1,38 +1,104 @@
 .App {
-  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-form {
+  width: 100%;
+  height: 10vh;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  text-align: center;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.search-form {
+  height: 10vh;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 30%;
 }
 
-.App-link {
-  color: #61dafb;
+.cont-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  color: lightseagreen;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: lightseagreen;
+  text-decoration: none;
+}
+
+.cont-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 10%;
+}
+
+.link {
+  background: lightseagreen;
+  color: #fff;
+  width: 80%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightseagreen;
+  transition: all 0.5s ease-in;
+  text-decoration: none;
+}
+
+.link:hover {
+  background: #fff;
+  color: lightseagreen;
+  border: 1px solid lightseagreen;
+  text-decoration: none;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-top: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  color: #000;
+}
+
+.search-btn {
+  border: none;
+  background: #fff;
+  color: lightseagreen;
+  border-top: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 4rem;
 }

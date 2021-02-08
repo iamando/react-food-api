@@ -1,0 +1,87 @@
+.recipe {
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #fff;
+  align-items: center;
+  width: 40%;
+}
+
+.rec-card {
+  width: 18rem;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  padding: 15px;
+}
+
+.btn {
+  border-top: 2px solid #ccc;
+  background: #fff;
+  color: lightseagreen;
+  text-transform: uppercase;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: lightseagreen;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  height: 450px;
+  box-shadow: 5px 12px 5px -7px rgba(0, 0, 0, 0.45);
+  -webkit-box-shadow: 5px 12px 5px -7px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 5px 12px 5px -7px rgba(0, 0, 0, 0.45);
+}
+
+.cardbody {
+  padding: 1.25rem;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.cardImgTop {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.source {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+}
+
+.line {
+  width: 100px;
+  color: #ccc;
+}
